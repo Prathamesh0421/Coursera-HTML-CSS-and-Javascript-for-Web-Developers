@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+    font-size: 175%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.box{
+    background-color: #999999;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    border: 2px solid black;
+
+}
+
+
+.box-name{
+    position: relative;
+    float:right;
+    width: 30%;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 0 0 2px 2px;
+    border-color: black;
+
+    padding: 2%;
+
+}
+.box-content{
+    position: relative;
+    clear: both;
+    width: 100%;
+    padding: 0 5% 5% 5%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+
+}
+
+.name1{
+    background-color: #D59898;
+}
+.name2{
+    background-color: #C14543;
+    color: white;
+}
+.name3{
+    background-color: #E5D198;
+}
+
+@media (min-width:992px){
+
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+        
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width:100% ;
+    }
+}
+
+@media (max-width:767px){
+    .col-sm-4{
+        width: 100%;
+    }
+}
